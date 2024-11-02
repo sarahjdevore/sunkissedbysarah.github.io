@@ -1,0 +1,135 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    /* removes default margin and padding applied by other browsers */
+
+}
+
+header {
+    /* background-color: rgb(29, 183, 183); */
+    display: flex;
+    /*  tells header it is a flex container now */
+    justify-content: left;
+    /* evenly spaces child elements inside the container  */
+    align-items: center;
+    /*  vertically center the child elements inside the container */
+    background-image: url(images/3672683.jpg);
+    color: rgb(7, 6, 6);
+    padding: 20px;
+    /*padding inside the header to create space around the content*/
+    width: 100%;
+    /*makes sure the header spans the entire width of the screem*/
+    margin: 0 auto;
+    /*this centers header horizontally on the page */
+    box-shadow: 0px 4px 6px #F19382
+        /*adds a slight shadow below the header to give it depth*/
+        flex-wrap: wrap;
+    /*makes elements wrap onto a new line if theres not enough space*/
+
+}
+
+header img {
+    border-radius: 10%;
+    /*round the corners of the element*/
+    box-shadow: 3px 3px 10px #F19382;
+    max-width: 100%;
+    /*maintains images aspect ration while resizing*/
+    height: auto;
+    /*maintains image's aspect ration while resizing*/
+    object-fit: cover;
+    /* crops the image without distorting */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 132, 119);
+}
+
+
+#greeting {
+    font-family: cursive;
+}
+
+}
+
+.intro {
+    max-width: 500px;
+    /*limits the width for better readability*/
+    text-align: left;
+    /*aligns text to the left, right, center */
+    color: black;
+}
+
+/*styling for Main*/
+main {
+    display: flex;
+    /*tells main it is a flex container*/
+    flex-direction: column;
+    /*Stacks child elements*/
+    align-items: center;
+    /*alighs child elemnts horizontally in the center */
+    padding: 30px;
+    /*adds padding AROUND the main content for better spacing*/
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*styling for the ASection Elements*/
+section {
+    background-color: rgb(255, 255, 255);
+    /*background color of each section*/
+    border-radius: 8px;
+    /*adds rounded corners to section*/
+    padding: 20px;
+    /*adds space INSIDE each section "card" */
+    margin-bottom: 20px;
+    /*adds space at the BOTTOM of each "card"*/
+    width: 100%;
+    /*makes the section take up the full width of the MAIN container */
+    max-width: 800px;
+    /*limits the width to a MAX of 800px */
+
+
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+
+}
+
+li {
+    margin-bottom: 15px;
+    /*add pace between each list item*/
+}
+
+/*tells main it is a flex container*/
+.about {}
+
+
+.skills {
+    /* background-color: rgb(28, 141, 147); */
+}
+
+.skills {
+    background-color: rgb(241, 136, 113);
+}
+
+
+
+.centerFooter {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}

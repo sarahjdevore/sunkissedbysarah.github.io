@@ -1,0 +1,50 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    /* removes default margin and padding applied by other browsers */
+    background-image: url("images/3672683.jpg");
+}
+
+main {
+    display: flex;
+    /*tells main it is a flex container*/
+    flex-direction: column;
+    /*Stacks child elements*/
+    align-items: center;
+    /*alighs child elemnts horizontally in the center */
+    padding: 150px;
+    /*adds padding AROUND the main content for better spacing*/
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+/*styling for the ASection Elements*/
+section {
+    background-color: rgb(246, 249, 249);
+    /*background color of each section*/
+    border-radius: 8px;
+    /*adds rounded corners to section*/
+    padding: 20px;
+    /*adds space INSIDE each section "card" */
+    margin-bottom: 20px;
+    /*adds space at the BOTTOM of each "card"*/
+    width: 100%;
+    /*makes the section take up the full width of the MAIN container */
+    max-width: 800px;
+    /*limits the width to a MAX of 800px */
+
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+
+}
